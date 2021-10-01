@@ -8,7 +8,8 @@ It is the first repo uploaded to Github and welcome to pull my project!
 This project takes it origin from an experiment of drones detection.  
 With **Optical Camera, Infrared Camera, Millimeterwave Radar and Lidar**  
 In this part, we dealt with our **LIDAR** file and there are mainly 3 steps.  
-该项目主要基于光学、红外、毫米波雷达以及激光雷达数据，对无人机探测和环境感知进行简单演示
+该项目的大背景主要基于光学、红外相机、毫米波雷达以及激光雷达数据，对无人机探测和环境感知进行简单演示。  
+以下内容为针对激光雷达数据的处理手段 - 环境建模与路径规划
 
 ## 1.Data Reading
 
