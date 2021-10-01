@@ -34,6 +34,6 @@ See 'Meshgrid.h' and 'Meshgrid.cpp'
 ## 3.Route Planning by DFS in C++  
 Core part of the project and in this part we use DFS algorithm, which will either return or go in depth, depending on its neighborhood.
 **Whether it could go, where to go, and go on!**
-See 'PathCalculate.h' and 'PathCalculate.cpp'
+See 'PathCalculate.h' and 'PathCalculate.cpp'  
 算法的关键部分。深度优先搜索 - 不进则退。
 【能不能进，往哪进，进行】无限循环！
