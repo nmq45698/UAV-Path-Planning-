@@ -5,7 +5,7 @@ Data from 16-line Lidar are tested and DFS Algorithm are used in route planning.
 It is the first repo uploaded to Github and welcome to pull my project!  
 该项目是利用C++中的PCL库，对无人机路径进行规划的一个demo  
 采用16线激光雷达数据进行测试，使用深度优先搜索算法进行路线规划  
-还请多多关照:blush:
+第一个Repo,不足之处还请多多指正:blush:
 
 ## Introductions
 This project takes it origin from an experiment of drones detection.  
@@ -23,8 +23,17 @@ The format of file is: x  y  z (gapped by tab).
 Each row indicates for one single point.  
 See 'PointCloudReader.h' and 'PointCloudReader.cpp'  
 该部分内容主要用于读取数据，数据格式需要满足一定规则，按照每行一个点的原则。  
-详见 'PointCloudReader.h' and 'PointCloudReader.cpp'
-
+详见 'PointCloudReader.h' and 'PointCloudReader.cpp'  
 ## 2.Environment Modeling
-
-## 3.Route Planning by DFS in C++
+In order to deal with huge number of data - 1MB per 10ms, which depends on the accuracy and sample rate of lidar,  
+we sample the point cloud into cube models by judging whether there are points in a cube,  
+considering the problem of huge amount of data, bandwidth limit for communication, power restriction and safety.
+See 'Meshgrid.h' and 'Meshgrid.cpp'  
+该部分内容主要用于建立网格模型，将有点云的点所在的方格视为障碍物方格。 
+主要考虑大数据量下，简化的模型可以有限传输带宽留给通信系统，并且节省因为数据量大导致的功率问题，以及飞行安全  
+## 3.Route Planning by DFS in C++  
+Core part of the project and in this part we use DFS algorithm, which will either return or go in depth, depending on its neighborhood.
+**Whether it could go, where to go, and go on!**
+See 'PathCalculate.h' and 'PathCalculate.cpp'
+算法的关键部分。深度优先搜索 - 不进则退。
+【能不能进，往哪进，进行】无限循环！
