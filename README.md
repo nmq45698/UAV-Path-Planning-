@@ -8,7 +8,7 @@ It is the first repo uploaded to Github and welcome to pull my project!
 This project takes it origin from an experiment of drones detection.  
 With **Optical Camera, Infrared Camera, Millimeterwave Radar and Lidar**
 In this part, we dealt with our **LIDAR** file and there are mainly 3 steps.
-<img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E5%9B%BE1.png" width="30%" height="30">
+<img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E5%9B%BE1.png" width="30%" height="30%">
 ## 1.Data Reading
 
 ## 2.Environment Modeling
