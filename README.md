@@ -1,10 +1,14 @@
 # UAV-Path-Planning with DFS Algorithm
 This is a project using PCL in C++ to plan routes for drones.  
-Data from 16-line Lidar are tested and DFS are used in route planning.  
+Data from 16-line Lidar are tested and DFS Algorithm are used in route planning.  
 It is the first repo uploaded to Github and welcome to pull my project!  
 
 ## Introductions
+This project takes it origin from an experiment of drones detection.  
+With **Optical Camera, Infrared Camera, Millimeterwave Radar and Lidar**
+In this part, we dealt with our **LIDAR** file and there are mainly 3 steps, all with (.h&.cpp) files.
+## 1.Data Reading
 
-## Environment Modeling
+## 2.Environment Modeling
 
-## DFS path searching with C++ and PCL Library
+## 3.Route Planning by DFS in C++
