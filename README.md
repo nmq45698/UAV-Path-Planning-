@@ -6,7 +6,7 @@ It is the first repo uploaded to Github and welcome to pull my project!
 ## Introductions
 This project takes it origin from an experiment of drones detection.  
 With **Optical Camera, Infrared Camera, Millimeterwave Radar and Lidar**
-In this part, we dealt with our **LIDAR** file and there are mainly 3 steps, all with (.h&.cpp) files.
+In this part, we dealt with our **LIDAR** file and there are mainly 3 steps.
 ## 1.Data Reading
 
 ## 2.Environment Modeling
