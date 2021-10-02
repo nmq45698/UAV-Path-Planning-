@@ -21,14 +21,14 @@ In this part, we dealt with our **LIDAR** file and there are mainly 3 steps.
 ## 1.Data Reading
 In this part, we read data from the .txt file of point clouds.  
 The format of file is: x  y  z (gapped by tab).  
-Each row indicates for one single point.  
+Each row indicates for one single point.   
 **See 'PointCloudReader.h' and 'PointCloudReader.cpp'**  
 该部分内容主要用于读取数据，数据格式需要满足一定规则，按照每行一个点的原则。  
 详见 'PointCloudReader.h' and 'PointCloudReader.cpp'  
 ## 2.Environment Modeling
 In order to deal with huge number of data - 1MB per 10ms, which depends on the accuracy and sample rate of lidar,  
 we sample the point cloud into cube models by judging whether there are points in a cube,  
-considering the problem of huge amount of data, bandwidth limit for communication, power restriction and safety.
+considering the problem of huge amount of data, bandwidth limit for communication, power restriction and safety.  
 **See 'Meshgrid.h' and 'Meshgrid.cpp'**  
 该部分内容主要用于建立网格模型，将有点云的点所在的方格视为障碍物方格。 
 主要考虑大数据量下，简化的模型可以有限传输带宽留给通信系统，并且节省因为数据量大导致的功率问题，以及飞行安全  
