@@ -22,14 +22,14 @@ In this part, we dealt with our **LIDAR** file and there are mainly 3 steps.
 In this part, we read data from the .txt file of point clouds.  
 The format of file is: x  y  z (gapped by tab).  
 Each row indicates for one single point.  
-See 'PointCloudReader.h' and 'PointCloudReader.cpp'  
+**See 'PointCloudReader.h' and 'PointCloudReader.cpp'**  
 该部分内容主要用于读取数据，数据格式需要满足一定规则，按照每行一个点的原则。  
 详见 'PointCloudReader.h' and 'PointCloudReader.cpp'  
 ## 2.Environment Modeling
 In order to deal with huge number of data - 1MB per 10ms, which depends on the accuracy and sample rate of lidar,  
 we sample the point cloud into cube models by judging whether there are points in a cube,  
 considering the problem of huge amount of data, bandwidth limit for communication, power restriction and safety.
-See 'Meshgrid.h' and 'Meshgrid.cpp'  
+**See 'Meshgrid.h' and 'Meshgrid.cpp'**  
 该部分内容主要用于建立网格模型，将有点云的点所在的方格视为障碍物方格。 
 主要考虑大数据量下，简化的模型可以有限传输带宽留给通信系统，并且节省因为数据量大导致的功率问题，以及飞行安全  
 <img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E5%9B%BE1.png" width="20%" height="20%">
@@ -37,7 +37,7 @@ See 'Meshgrid.h' and 'Meshgrid.cpp'
 ## 3.Route Planning by DFS in C++  
 Core part of the project and in this part we use DFS algorithm, which will either return or go in depth, depending on its neighborhood.
 **Whether it could go, where to go, and go on!**
-See 'PathCalculate.h' and 'PathCalculate.cpp'  
+**See 'PathCalculate.h' and 'PathCalculate.cpp'**  
 算法的关键部分。深度优先搜索 - 不进则退。
 【能不能进，往哪进，进行】无限循环！  
 <img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E8%B7%AF%E5%BE%84%E7%BB%93%E6%9E%9C.png" width="50%" height=“50%”>  
