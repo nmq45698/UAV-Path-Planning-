@@ -5,7 +5,8 @@ Data from 16-line Lidar are tested and DFS Algorithm are used in route planning.
 It is the first repo uploaded to Github and welcome to pull my project!  
 该项目是利用C++中的PCL库，对无人机路径进行规划的一个demo  
 采用16线激光雷达数据进行测试，使用深度优先搜索算法进行路线规划  
-第一个Repo,不足之处还请多多指正:blush:
+第一个Repo,不足之处还请多多指正:blush:  
+<img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E6%A8%A1%E5%9E%8B%E7%AE%80%E5%9B%BE.jpg" width="10%" height="10%">
 
 ## Introductions
 This project takes it origin from an experiment of drones detection.  
@@ -31,6 +32,7 @@ considering the problem of huge amount of data, bandwidth limit for communicatio
 See 'Meshgrid.h' and 'Meshgrid.cpp'  
 该部分内容主要用于建立网格模型，将有点云的点所在的方格视为障碍物方格。 
 主要考虑大数据量下，简化的模型可以有限传输带宽留给通信系统，并且节省因为数据量大导致的功率问题，以及飞行安全  
+<img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E6%A8%A1%E5%9E%8B%E7%AE%80%E5%9B%BE.jpg" width="20%" height="20%">
 ## 3.Route Planning by DFS in C++  
 Core part of the project and in this part we use DFS algorithm, which will either return or go in depth, depending on its neighborhood.
 **Whether it could go, where to go, and go on!**
