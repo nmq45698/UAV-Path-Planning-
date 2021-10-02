@@ -39,5 +39,6 @@ Core part of the project and in this part we use DFS algorithm, which will eithe
 **Whether it could go, where to go, and go on!**
 See 'PathCalculate.h' and 'PathCalculate.cpp'  
 算法的关键部分。深度优先搜索 - 不进则退。
-【能不能进，往哪进，进行】无限循环！ 
-<img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E8%B7%AF%E5%BE%84%E7%BB%93%E6%9E%9C.png" width="30%" height=“30%”>
+【能不能进，往哪进，进行】无限循环！  
+<img src="https://github.com/nmq45698/UAV-Path-Planning-/blob/main/%E8%B7%AF%E5%BE%84%E7%BB%93%E6%9E%9C.png" width="50%" height=“50%”>  
+
