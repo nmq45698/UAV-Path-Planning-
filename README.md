@@ -1,6 +1,7 @@
 # UAV-Path-Planning with DFS Algorithm
 # 基于深度优先搜索算法的无人机路径规划
 
+`实验7-实验指导书.pdf` `实验8-实验指导书.pdf` - See in details 
 `KMeans.cpp/.h` - Class for K-Means Clustering  
 `Meshgrid.cpp/.h`-  Class for space description  
 `PointCloudReader.cpp/.h` - Class for loading point clouds  
