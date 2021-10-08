@@ -3,7 +3,7 @@
 
 `KMeans.cpp/.h` - Class for K-Means Clustering  
 `Meshgrid.cpp/.h`-  Class for space description  
-`PointReader.cpp/.h` - Class for loading point clouds  
+`PointCloudReader.cpp/.h` - Class for loading point clouds  
 `PathCalculate.cpp/.h` - Class for path planning  
 
 This is a project using PCL in C++ to plan routes for drones.  
