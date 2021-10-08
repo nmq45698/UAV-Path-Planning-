@@ -1,5 +1,11 @@
 # UAV-Path-Planning with DFS Algorithm
 # 基于深度优先搜索算法的无人机路径规划
+
+`KMeans.cpp/.h` - Class for K-Means Clustering  
+`Meshgrid.cpp/.h`-  Class for space description  
+`PointReader.cpp/.h` - Class for loading point clouds  
+`PathCalculate.cpp/.h` - Class for path planning  
+
 This is a project using PCL in C++ to plan routes for drones.  
 Data from 16-line Lidar are tested and DFS Algorithm are used in route planning.  
 It is the first repo uploaded to Github and welcome to pull my project!  
